@@ -1,10 +1,8 @@
 #pragma once
 
-// Wi-Fi (fill in)
-#define WIFI_SSID       "Fibre_MarocTelecom-E80B"
-#define WIFI_SSID_5GHZ   "Fibre_MarocTelecom-E80B-5GHz"
-#define WIFI_PASS       "evG8SQgbAE"
-#define TOKEN           "p9w59s7@pzoo^kATyI*nbTjF5@Rpm3p1rbJ7TR1JYohy3J6m#V9LI&"
+// Wi-Fi credentials and secret token — loaded from secrets.h (not committed)
+// Copy config/secrets.h.example to config/secrets.h and fill in your values.
+#include "secrets.h"
 
 #define API_URL     "http://192.168.1.1:8088/metrics"
 
